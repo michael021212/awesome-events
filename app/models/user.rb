@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  has_many :created_events, class_name: "Event", foreign_key: "owner_id"
+
   def self.find_or_create_from_auth_hash!(auth_hash)
     user_params = self.user_params_from_auth_hash(auth_hash)
     User.find_or_create_by!(provider: user_params[:provider], uid: user_params[:uid]) do |user|
