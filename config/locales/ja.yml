@@ -4,6 +4,7 @@ ja:
       admin_user: 管理者
       comment: コメント
       event: イベント
+      ticket: チケット
     attributes:
       admin_user:
         id: 登録番号
@@ -27,6 +28,8 @@ ja:
         content: 内容
         created_at: 作成日時
         updated_at: 更新日時
+      ticket:
+        comment: コメント
   active_admin:
     dashboard: "ダッシュボード"
     dashboard_welcome:
