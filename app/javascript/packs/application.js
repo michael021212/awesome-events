@@ -9,6 +9,7 @@ require("@rails/activestorage").start()
 require("channels")
 import "bootstrap"
 import "bootstrap/scss/bootstrap.scss"
+require("concerns/bootstrap_form")
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
