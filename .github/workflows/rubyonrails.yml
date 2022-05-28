@@ -61,6 +61,8 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.6.5
+      - name: Bundle
+        run: bundle install
       # Add or replace any other lints here
       - name: Security audit application code
         run: bin/brakeman -q -w2
