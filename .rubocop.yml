@@ -1,0 +1,11 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+
+# Check only Lint cops and Security cops
+# AllCops:
+#   DisabledByDefault: true
+# Lint:
+#   Enabled: true
+# Security:
+#   Enabled: true

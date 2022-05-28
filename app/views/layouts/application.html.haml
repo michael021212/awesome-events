@@ -30,3 +30,4 @@
         .alert.alert-danger.alert-dismissible.fade.show
           = flash.alert
       = yield
+    = raw Rails.application.assets_manifest.find_sources('icons.svg').first

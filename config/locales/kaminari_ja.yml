@@ -1,0 +1,8 @@
+ja:
+  views:
+    pagination:
+      first: <svg class="icons-svg"><use xlink:href="#icons-angles-left-solid"></use></svg>
+      last: <svg class="icons-svg"><use xlink:href="#icons-angles-right-solid"></use></svg>
+      previous: <svg class="icons-svg"><use xlink:href="#icons-angle-left-solid"></use></svg>
+      next: <svg class="icons-svg"><use xlink:href="#icons-angle-right-solid"></use></svg>
+      truncate: "..."
