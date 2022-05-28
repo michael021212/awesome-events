@@ -60,7 +60,7 @@ jobs:
       - name: Install Ruby and gems
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.6.x'
+          ruby-version: 2.6
           bundler-cache: true
       # Add or replace any other lints here
       - name: Security audit dependencies
