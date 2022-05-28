@@ -31,4 +31,7 @@
     = f.text_field :content, class: "form-control", row: 10, required: true, maxlength: "1000"
     .invalid-feedback
       = "#{Event.human_attribute_name(:content)}を入力してください"
+  .mb-3
+    = f.label :image, class: "form-label"
+    = f.file_field :image, class: "form-control-file"
   = f.submit class: "btn btn-primary"
