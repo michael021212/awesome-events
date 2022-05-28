@@ -53,6 +53,9 @@ group :development do
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
   gem 'solargraph', require: false
+  # Vulnerability Check Z
+  gem 'bundler-audit'
+  gem 'brakeman'
 end
 
 group :test do
