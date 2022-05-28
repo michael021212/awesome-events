@@ -62,10 +62,6 @@ jobs:
         with:
           ruby-version: 2.6.5
       # Add or replace any other lints here
-      - name: Security audit dependencies
-        run: |
-          bundle install --jobs 4 --retry 3
-          bundle exec bundler-audit --update
       - name: Security audit application code
         run: bin/brakeman -q -w2
       - name: Lint Ruby files
