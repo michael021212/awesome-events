@@ -60,7 +60,7 @@ jobs:
       - name: Install Ruby 2.6
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6
+          ruby-version: 2.6.5
       - name: bundle install
         run: bundle install --jobs 4 --retry 3
       # Add or replace any other lints here
