@@ -26,6 +26,9 @@ gem 'jbuilder', '~> 2.7'
 gem 'image_processing', '~> 1.2'
 gem 'active_storage_validations', '~> 0.9.8'
 
+# Use Decorator
+gem 'active_decorator'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
